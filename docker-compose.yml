@@ -1,7 +1,7 @@
 services:
- app:
- image: subbo69/halovisionai:latest
- container_name: halovisionai_new
- restart: unless-stopped
- ports:
- - "86:80"
+  app:
+    image: subbo69/halovisionai:latest
+    container_name: halovisionai_new
+    restart: unless-stopped
+    ports:
+      - "86:80"

@@ -1,6 +1,6 @@
 services:
  app:
- image: YOUR_DOCKERHUB_USER/halovisionai:latest
+ image: Subbo69/halovisionai:latest
  ports:
  - "8081:8081"
  restart: unless-stopped

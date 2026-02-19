@@ -1,8 +1,7 @@
 services:
  app:
- build:
- context: https://github.com/Subbo69/halovisionai.git
+ build: .
  container_name: halovisionai_new
  restart: unless-stopped
  ports:
- - "86:80"
+ - "8081:80"

@@ -1,6 +1,6 @@
-ervices:
+services:
  app:
- build: /path/to/halovisionai
+ build: /root/halovisionai
  container_name: halovisionai_new
  restart: unless-stopped
  ports:
